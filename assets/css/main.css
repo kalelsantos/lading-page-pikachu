@@ -24,6 +24,7 @@ main{
 
 h1{
     font-size: 22vw;
+    font-weight: 400;
     text-align: center;
     color: white;
     transform: translateY(20%);
@@ -84,6 +85,10 @@ h1::before{
 
 }
 
+footer{
+    display: none;
+}
+
 @media (min-width: 768px){
     /* regras do tablet aqui */
     
@@ -135,4 +140,78 @@ h1::before{
 
     }
 
+}
+
+@media (min-width: 1024px){
+    /* regras do desktop aqui */
+
+    body{
+        padding: 70px 70px
+    }
+
+    h1{
+        font-size: 20vw;
+        transform: translateY(0%);
+    }
+
+    .hero-container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero-container div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+    }
+
+    .hero-container h2{
+        font-size: 60px;
+        text-align: left;
+        font-weight: 200;
+    }
+
+    .hero-container p{
+        text-align: left;
+        font-weight: 100;
+        font-size: 20px;
+    }
+
+    .hero-container a{
+        width: 400px;
+    }
+
+    .pikachu{
+        width: auto;
+        height: 60vh;
+        top: 60%;
+        left: 54%;
+    }
+
+    footer{
+        display: block;
+        text-align: center;
+        color: var(--color-secondary);
+    }
+
+    h1{
+    font-size: 20vw;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    transform: translateY(15%); 
+    }
+    
+    h1::before{
+    content: 'Pikachu';
+    color: #FFF5;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: -1;
+    font-size: 26.65vw;
+    }
 }
