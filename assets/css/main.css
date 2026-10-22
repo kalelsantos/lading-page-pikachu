@@ -121,7 +121,7 @@ footer{
     position: absolute;
     top: 50%;
     left: 55%;
-    transform: translate(-53%, -56%);
+    transform: translate(-56%, -56%);
     width: 70vw;
 
     }
@@ -201,14 +201,14 @@ footer{
     font-weight: 100;
     text-align: center;
     color: white;
-    transform: translateY(15%); 
+    transform: translateY(15%);
     }
     
     h1::before{
     content: 'Pikachu';
     color: #FFF5;
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -40%);
     z-index: -1;

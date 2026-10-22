@@ -1,1 +1,1 @@
-# lading-page-pikachu-lima
+# lading-page-pikachu-mobile-first
